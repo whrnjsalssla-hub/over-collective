@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    min-height:100%;
+    font-family:"Times New Roman", serif;
+    color:white;
+}
+
+/* =========================
+   HOME PAGE
+========================= */
+
+body.home-page{
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.65),
+        rgba(0,0,0,0.85)
+    ),
+    url("images/archive.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.home-container{
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+}
+
+.logo{
+    font-size:46px;
+    font-weight:400;
+    letter-spacing:14px;
+
+    margin-bottom:80px;
+}
+
+.country-menu{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:45px 140px;
+
+    margin-bottom:70px;
+}
+
+.country-menu a{
+    color:white;
+    text-decoration:none;
+
+    font-size:23px;
+    letter-spacing:8px;
+
+    transition:0.3s;
+}
+
+.country-menu a:hover{
+    opacity:0.5;
+}
+
+.intro-text{
+    margin-bottom:60px;
+}
+
+.intro-text p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.footer-link{
+    color:rgba(255,255,255,0.45);
+
+    text-decoration:none;
+
+    font-size:18px;
+    letter-spacing:5px;
+
+    transition:0.3s;
+}
+
+.footer-link:hover{
+    color:white;
+
+    letter-spacing:7px;
+}
+/* =========================
+   COUNTRY PAGE
+========================= */
+
+.sub-page{
+    min-height:100vh;
+
+    background:#050505;
+
+    padding-top:120px;
+    padding-left:90px;
+    padding-right:90px;
+    padding-bottom:120px;
+
+    position:relative;
+}
+
+.back-link{
+    text-decoration:none;
+
+    color:rgba(255,255,255,0.55);
+
+    font-size:16px;
+    letter-spacing:2px;
+
+    transition:0.3s;
+}
+
+.back-link:hover{
+    color:white;
+}
+
+.sub-title{
+    margin-top:80px;
+
+    font-size:64px;
+    font-weight:400;
+
+    letter-spacing:12px;
+}
+
+.sub-text{
+    margin-top:25px;
+
+    max-width:500px;
+
+    font-size:20px;
+    line-height:1.8;
+
+    color:rgba(255,255,255,0.75);
+}
+
+
+/* =========================
+   BRAND OF THE MONTH
+========================= */
+
+.brand-month{
+    position:absolute;
+
+    top:70px;
+    right:90px;
+
+    text-decoration:none;
+    color:white;
+
+    transition:0.3s ease;
+}
+
+.brand-month:hover{
+    opacity:0.6;
+}
+
+.brand-month-title{
+    font-size:32px;
+    font-weight:400;
+
+    letter-spacing:4px;
+}
+
+/* =========================
+   POSTER
+========================= */
+
+.country-poster{
+    margin-top:40px;
+
+    display:flex;
+    justify-content:center;
+}
+
+.country-poster img{
+    width:72%;
+    max-width:1100px;
+
+    opacity:0.55;
+
+    transition:0.4s ease;
+}
+
+.country-poster img:hover{
+    opacity:1;
+}
+
+/* =========================
+   KOREA BRANDS PAGE
+========================= */
+
+.brand-directory{
+    margin-top:80px;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:40px;
+
+    max-width:900px;
+}
+
+.brand-card{
+    text-decoration:none;
+    color:white;
+
+    border-bottom:1px solid rgba(255,255,255,0.15);
+
+    padding-bottom:25px;
+
+    transition:0.3s ease;
+}
+
+.brand-card:hover{
+    opacity:0.6;
+    padding-left:12px;
+}
+
+.brand-card h2{
+    font-size:32px;
+    font-weight:400;
+
+    letter-spacing:6px;
+
+    margin-bottom:12px;
+}
+
+.brand-card p{
+    font-size:16px;
+    line-height:1.8;
+
+    color:rgba(255,255,255,0.70);
+}
+/* =========================
+   BRAND DETAIL PAGE
+========================= */
+
+.brand-gallery{
+    margin-top:60px;
+
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+
+    align-items:center;
+}
+
+.brand-gallery img{
+    width:80%;
+    max-width:1000px;
+
+    opacity:0.85;
+
+    transition:0.4s ease;
+}
+
+.brand-gallery img:hover{
+    opacity:1;
+}
